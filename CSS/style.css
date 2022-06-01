@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  
+    background-color: #363636;
+    box-shadow: 0px 10px 10px #AAA;
+    display: flex;
+
+}
+h1{
+    justify-self: center;
+    background-color: steelblue;
+    color:#363636;
+
+}
+
+.Nav-links{
+   /* border: 1px solid rgb(41, 192, 24);*/
+   /* margin-left: 200%;*/
+    display: flex;
+  /*  justify-content: ;*/
+    
+}
+li {
+    
+   /* border: 1px solid red;*/
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+
+/*main{
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    width:100% ;
+    justify-self: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}*/
+aside{
+    width:10%;
+    /*border-style: solid;*/
+    border-right: 5px solid steelblue;
+   /* border-right-color: steelblue;*/
+    display: flex;
+    justify-content: end;
+}
+#container{
+    width:75%;
+   /* border: 1px solid rgb(0, 255, 34);*/
+    /*border: 1px solid rgb(0, 0, 0);*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100% ;
+   /* justify-self: center;*/
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#container-work{
+    width:75%;
+  /*  border: 1px solid rgb(0, 255, 34);*/
+    /*border: 1px solid rgb(0, 0, 0);*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100% ;
+   /* justify-self: center;*/
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+#Work .apps{
+    min-height:150px;
+    width: 48%;
+    margin:10px;
+    border: 1px dotted black;
+}
+#app1{
+    height: 300px;
+    width: 100%;
+    border: 1px dotted black;
+    margin:10px;
+}
+#container-Contact{
+    width:75%;
+    /*border: 1px solid rgb(0, 255, 34);*/
+    /*border: 1px solid rgb(0, 0, 0);*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100% ;
+   /* justify-self: center;*/
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#Contact-Me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+section{
+   /* border: 1px solid rgb(255, 0, 0);*/
+    height: 25% ;
+    margin: 10px;
+    width:75%;
+}
+@media screen and (max-width:1000px){
+    #Work {justify-content:center;}
+}
