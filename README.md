@@ -7,4 +7,4 @@ link: https://dequand.github.io/DeQuanls-Portfolio/
 # Technologies
     This webpage was built using html and css.
 # Image
-![image](assets\Screenshot.png)
+![image](assets/Screenshot.png)
