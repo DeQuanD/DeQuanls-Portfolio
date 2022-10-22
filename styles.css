@@ -17,15 +17,10 @@ h1{
 }
 
 .Nav-links{
-   /* border: 1px solid rgb(41, 192, 24);*/
-   /* margin-left: 200%;*/
     display: flex;
-  /*  justify-content: ;*/
     
 }
 li {
-    
-   /* border: 1px solid red;*/
     display: inline-block;
     margin: 0px 10px 0px 10px;
     
@@ -38,34 +33,19 @@ li a{
 
 }
 
-/*main{
-    border: 1px solid rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    width:100% ;
-    justify-self: center;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}*/
 aside{
     width:10%;
-    /*border-style: solid;*/
     border-right: 5px solid steelblue;
-   /* border-right-color: steelblue;*/
     display: flex;
     justify-content: end;
 }
 #container{
     width:75%;
-   /* border: 1px solid rgb(0, 255, 34);*/
-    /*border: 1px solid rgb(0, 0, 0);*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width:100% ;
-   /* justify-self: center;*/
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -77,14 +57,11 @@ aside{
 }
 #container-work{
     width:75%;
-  /*  border: 1px solid rgb(0, 255, 34);*/
-    /*border: 1px solid rgb(0, 0, 0);*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width:100% ;
-   /* justify-self: center;*/
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -102,24 +79,30 @@ aside{
     min-height:150px;
     width: 48%;
     margin:10px;
-    border: 1px dotted black;
+    border: 1px solid steelblue;
+    border-radius: 4px;
+ 
+   
 }
 #app1{
     height: 300px;
     width: 100%;
-    border: 1px dotted black;
+    border: 1px solid steelblue;
     margin:10px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+#app1 a img :hover{
+    transform: translate(100px, 0px);
 }
 #container-Contact{
     width:75%;
-    /*border: 1px solid rgb(0, 255, 34);*/
-    /*border: 1px solid rgb(0, 0, 0);*/
+   
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     width:100% ;
-   /* justify-self: center;*/
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -134,12 +117,10 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-   /* border: 1px solid black;*/
     height: 100px;
     
    }
 #Contact-Me > P{
-   /*border: 1px solid black;*/
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -150,7 +131,7 @@ h2{
     text-decoration: none;
 }
 section{
-   /* border: 1px solid rgb(255, 0, 0);*/
+
     height: 25% ;
     margin: 10px;
     width:75%;
