@@ -119,17 +119,36 @@ aside{
     margin-left: 20px;
     margin-right: 20px;
 }
+h2{
+    margin: 10px;
+    font-size:48px;
+    tab-size: 10
+}
 #Contact-Me{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;}
+    justify-content: center;
+   /* border: 1px solid black;*/
+    height: 100px;
+    
+   }
+#Contact-Me > P{
+   /*border: 1px solid black;*/
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-left:100px;
+}
 
 section{
    /* border: 1px solid rgb(255, 0, 0);*/
     height: 25% ;
     margin: 10px;
     width:75%;
+}
+footer{
+    height: 50px;
 }
 @media screen and (max-width:1000px){
     #Work {justify-content:center;}
